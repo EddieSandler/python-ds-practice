@@ -11,15 +11,17 @@ def flip_case(phrase, to_swap):
         'AaaaHHH'
 
     """
-    result = phrase.split(,)
+    #s.replace(t,u,count) 	Replace count (default: all) occurrences of t in s with u
+
+    #iterate through string
+
+    result = ''
     for letter in phrase:
-
-        if letter != "h" or "H"
-            
-
-        elif letter != letter.upper():
-            result += (letter.lower())
-
+        if letter.lower() == to_swap.lower():
+            if letter.islower():
+                result += letter.upper()
+            else:
+                result += letter.lower()
         else:
-            result += (letter)
+            result += letter
     return result
