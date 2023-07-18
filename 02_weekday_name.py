@@ -20,3 +20,5 @@ def weekday_name(day_of_week):
         return None
 
 
+#on 16 can make a global constant if you want.
+#no need for funciton 19 or 18 bc technically its undef(NONE)

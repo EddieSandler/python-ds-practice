@@ -48,8 +48,11 @@ def list_manipulation(lst, command, location, value=None):
     elif command == 'add':
         if location == 'beginning':
             lst.insert(0,value)
+
         elif location =='end':
             lst.append(value)
         else: return None
         return lst
     return None
+# 56 is not necessary return lst after the inserts
+#dont do else on one line (line 54)
